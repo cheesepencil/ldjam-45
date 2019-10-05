@@ -1,5 +1,5 @@
 {
-  "name": "Danny's Sandwich Shop",
+  "name": "ld45",
   "version": "1.0.0",
   "description": "A game for Ludum Dare #45: Start with Nothing",
   "main": "index.js",
@@ -23,7 +23,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cheesepencil/ldjam-45/issues""
+    "url": "https://github.com/cheesepencil/ldjam-45/issues"
   },
   "homepage": "https://github.com/cheesepencil/ldjam-45"
 }
