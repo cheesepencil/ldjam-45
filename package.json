@@ -1,7 +1,7 @@
 {
-  "name": "phaser3-jam-boilerplate",
+  "name": "Danny's Sandwich Shop",
   "version": "1.0.0",
-  "description": "A template for scaffolding simple or jam games with Phaser 3",
+  "description": "A game for Ludum Dare #45: Start with Nothing",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheesepencil/phaser3-jam-boilerplate.git"
+    "url": "git+https://github.com/cheesepencil/ldjam-45.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cheesepencil/phaser3-jam-boilerplate/issues"
+    "url": "https://github.com/cheesepencil/ldjam-45/issues""
   },
-  "homepage": "https://github.com/cheesepencil/phaser3-jam-boilerplate#readme"
+  "homepage": "https://github.com/cheesepencil/ldjam-45"
 }
