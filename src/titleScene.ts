@@ -7,15 +7,18 @@ export class TitleScene extends Phaser.Scene {
     }
 
     create(): void {
-        this.add.bitmapText(128, 128, 'PressStart2P-White', 'GAME TITLE!')
+        this.add.image(32, 32, "title_image")
+            .setOrigin(0, 0);
+
+        this.add.bitmapText(128, 160, 'PressStart2P-White', "Ludum Dare #45:\nStart with Nothing", undefined, Phaser.GameObjects.BitmapText.ALIGN_CENTER)
             .setOrigin(0.5, 0.5);
 
-        this.add.bitmapText(128, 248, 'PressStart2P-White', 'press start/space...')
+        this.add.bitmapText(128, 248, 'PressStart2P-White', 'press space...')
             .setOrigin(0.5, 1);
 
         this.space = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE, true);
 
-        this.cameras.main.fadeIn(2000, 0, 0, 0, this.fadeCheck, this);
+        this.cameras.main.fadeIn(500, 0, 0, 0, this.fadeCheck, this);
     }
 
     update(): void {
